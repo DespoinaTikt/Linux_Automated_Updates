@@ -1,8 +1,8 @@
-## Linux_Automated_Updates
+# Linux_Automated_Updates
 
 Here is a project that automates system updates in Linux. This project involves creating a Bash script to update your system and configuring a cron job to run the script automatically at regular intervals.
 
-# Create the Update Script
+## Create the Update Script
 
 First I am going to open the terminal and create my new script file. Then, using the Vim editor, I add the following Bash script.
 
@@ -13,7 +13,7 @@ After saving it, I make sure that the proper permissions are assigned.
 
 ![Screenshot (175)](https://github.com/DespoinaTikt/Linux_Automated_Updates/assets/166096217/ff24abe1-e9bc-4ec1-8c25-bf59f8075ce1)
 
-# Test the Script
+## Test the Script
 
 I run the script manually to make sure it works as expected.
 
@@ -23,7 +23,7 @@ Then I check the Log File to confirm the updates were performed and logged.
 
 ![Screenshot (179)](https://github.com/DespoinaTikt/Linux_Automated_Updates/assets/166096217/2216e5b3-7e37-4d0e-a184-59d69432568a)
 
-# Schedule the Script
+## Schedule the Script
 
 In addition, I use cron to schedule the script to run everyday. I open the crontab editor and add the following line to run the update script daily at 2 AM.
 
